@@ -15,6 +15,14 @@ Board dimensions 100mmx50mm, so that it can be panelised and manufactured by JLC
 It is not cross compatible with VESC software, and does not intend to be. VESC has run away with itself in terms of cost, firmware abstraction... in the opinion of this project's author.
 
 # Current Status:  
+
+## Changes made by larryqiann:
+Change power architecture to use MP9486A to create 12V rail, from  which 3.3V and 5V will be regulated to reduce quiescent power draw
+
+Add CAN bus transceiver to support CAN bus integration because F303CB supports CAN2.0b
+
+## Previous:
+
 First build has been made. All functions... function.
 Photos in folder! Video of prelim run to be added to Youtube.
 Step down works
